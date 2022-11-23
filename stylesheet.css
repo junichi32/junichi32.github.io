@@ -49,3 +49,7 @@ li a:hover{
 .bg_image {
     background-image: url(bg_a.jpg);    /* 背景画像指定 */
 }
+.bg_image {
+    background-image: url(bg_a.jpg);     /* 背景画像指定 */
+    background-repeat: repeat-y;                /* 背景の繰り返し設定 */
+}
