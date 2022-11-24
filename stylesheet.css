@@ -1,6 +1,6 @@
 .bg-image {
     background-image: url(bg_a.jpg);
-    opacity: 0.3;
+    opacity: 0.5;
     background-size:cover;
     background-attachment: fixed; 
   }
