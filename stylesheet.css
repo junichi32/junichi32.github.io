@@ -18,7 +18,7 @@
     align-items: center;
   } 
 .h1{
-    color: rgba(0, 0, 0,1);
+    color: rgb(247,148,40);
     display: grid;
     place-items: center;
     font-family: "Hannari";
