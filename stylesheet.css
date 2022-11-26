@@ -8,7 +8,7 @@
     background-image: url(bg_a.jpg);
     background-repeat: no-repeat;
     background-size:cover;
-    background-attachment: fixed; 
+    background-attachment: fixed;
 }
 .bg-bg {
     height: 100%;
@@ -24,6 +24,9 @@
     font-family: "Hannari";
     font-size: 525%;
     text-align: center;
+    color: #ffffff;
+    text-shadow: 0px 0px 20px rgba(255,255,0,1);
+    background-color: #003;
 }
 .h2{
     color: rgba(0, 0, 0,1);
