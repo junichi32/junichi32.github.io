@@ -1,5 +1,7 @@
 .h-image{
     background-image: url(lantern-g751dab37e_1280.jpg);
+    background-position: left top;
+    background-repeat: no-repeat;
     }
 .bg-image {
     background-image: url(bg_a.jpg);
