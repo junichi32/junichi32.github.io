@@ -4,6 +4,7 @@
     background-repeat: no-repeat;
     haight: 50px;
     width: 100vw;
+    vertical-align: bottom;
     }
 .bg-image {
     background-image: url(bg_a.jpg);
