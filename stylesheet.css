@@ -37,7 +37,7 @@
 	padding: 10px 10px 10px 70px;
 	position: relative;
     }
-h2::before {
+h2:before {
 	background-color: #ff6a88; /* 円1 */
 	border-radius: 50%;
 	content: '';
