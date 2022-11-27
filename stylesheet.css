@@ -1,8 +1,8 @@
 .h-image{
     background-image: url(lantern-g751dab37e_1280.jpg);
-    background-position: center top;
+    background-position: left top;
     background-repeat: no-repeat;
-    width: 100vw;
+    width: 100px;
     height: 75px;
     vertical-align: bottom;
     }
