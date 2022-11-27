@@ -50,7 +50,7 @@ h2::before {
 	box-shadow: 25px 10px 0px #ff6a88, /* 円2位置・色 */
 			 3px 25px 0px #ff6a88; /* 円3位置・色 */
 }
-h2:after {
+.h2:after {
 	border: 4px solid #fff; /* 白抜き円 */
 	border-radius: 50%;
 	content: '';
