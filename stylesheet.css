@@ -3,7 +3,7 @@
     background-position: center top;
     background-repeat: no-repeat;
     haight 50px;
-    width: 100%;
+    width: 100vw;
     }
 .bg-image {
     background-image: url(bg_a.jpg);
