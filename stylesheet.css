@@ -11,6 +11,7 @@
     background-size:cover;
     background-attachment: fixed;
     width: 100vw;
+    vertical-align: bottom;
 }
 .bg-bg {
     height: 100%;
