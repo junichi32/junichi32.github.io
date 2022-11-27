@@ -32,5 +32,6 @@
     display: grid;
     font-family: "Hannari";
     font-size: 125%;
+    padding-left: 20px;
     text-align: left;
 }
