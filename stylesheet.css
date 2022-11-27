@@ -23,7 +23,7 @@
   } 
 .h1{
     color: rgb(247,148,40);
-/*     display: grid; */
+    display: grid; 
     place-items: center;
     font-family: "Hannari";
     font-size: 15%;
