@@ -34,8 +34,8 @@
 .h2{	
     border-bottom: 1px solid #f0bdc4; /*midashi */
 	color: #ff99ac;
-	padding: 10px 10px 10px 70px;
-	position: relative;
+/* 	padding: 10px 10px 10px 70px; */
+/* 	position: relative; */
     }
 .h2:before {
 	background-color: #ff6a88; /* 円1 */
