@@ -2,6 +2,7 @@
     background-image: url(lantern-g751dab37e_1280.jpg);
     background-position: center top;
     background-repeat: no-repeat;
+    haight 50px;
     width: 100%;
     }
 .bg-image {
@@ -9,6 +10,7 @@
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment: fixed;
+     width: 100%;
 }
 .bg-bg {
     height: 100%;
