@@ -1,0 +1,161 @@
+head{   /*ヘッダー*/
+    width: 100%; 
+    height: 10%;
+    /* background-attachment: fixed; */
+    }
+.h{     /*ヘッダー画像貼り付け*/
+    background-image: url(2f.png);
+    background-position: center ;
+    background-repeat: no-repeat;
+    }
+.h-b{   /*ヘッダー画像のモヤ*/
+    background-color: #1a042f9b;
+    }
+.h-c{   /*ヘッダー画像のモヤの上の文字*/
+    /* max-width: 100%; */
+    font-size: 280%;
+    font-family:"Hannari";
+    color: #f3efdd;
+    text-shadow: 0px 0px 9px rgba(213, 255, 2, 0.756);
+    /* padding-left: 15px; */
+    padding-right: 600px;
+    /* text-align: center; */
+    width: 345px;
+    margin: 0 auto;
+    /* background-color: aliceblue; */
+    }
+.h-c:hover{     /*ヘッダー画像のぼかしの上の文字をマウスで触る*/
+    color:transparent;
+    color:rgba(140, 121, 169, 0.197);
+    text-shadow: 0px 0px 5px rgba(183, 164, 235, 0.4);
+    transition: all 0.4s;
+    }
+.f1{    /*下線見出し*/
+    /* width: 75.3%; */
+    color: rgb(0, 0, 0) ;
+    font-family: "Hannari";
+    font-size: 120%;
+    letter-spacing: 3px;
+    text-align: left;
+    padding-left: 20px;
+    /* background-image: url(bg_a.jpg); */
+    border-left: solid 20px #b75b5b;
+    box-shadow: 0px 2px 2px rgba(84, 16, 16, 0.735);
+    background-color: #fff7e8cc;
+    }
+.h3{    /*元の文*/
+    color: #ffffff;
+    display: grid;
+    font-family: "Hannari";
+    font-size: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: left;
+    letter-spacing: 3px;
+    /* padding-left: 200px; */
+    }
+.h4{    /*常テキスト*/
+    color: #ffffff;
+    font-family: "Hannari";
+    } 
+.about {
+    background-color: #6b5146;
+    /* width: 920px;*/
+    /* margin: 0 auto 200px; */
+    }
+body {/*縁の間背景*/
+    padding-left: 200px;
+    padding-right: 200px;
+    margin: 0%;
+    background-image: url(bg_a.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    }
+.sand{     /*フッター*/
+    /* width: 90%; */
+    display: flex;              /* フレックスボックスにする */
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #0F051F;
+    justify-content:space-around;
+    }
+    .k0 p{ /*ヘッダーのタイトルbutton*/
+    /* background-color: rgba(0, 255, 255, 0.483); */
+    display: inline-block;
+    position: relative;
+    font-family:"Hannari";
+    flex-basis:  20%;         /* 幅指定 */
+    text-align: center;
+    /* text-shadow: 0px 0px 9px rgba(213, 255, 2, 0.756); */
+    color: #f3efdd;
+    text-shadow: 0px 0px 9px rgb(64, 255, 0);
+    /* margin-inline: 50px !important; */
+    /* color: #a31300; */
+    /* text-shadow: 0px 0px 9px rgba(213, 255, 2, 0.756); */
+    /* visibility: visible; */
+        /* visibility: hidden; */        
+  }
+  .k0 p:hover{     /*画像のぼかしの上の文字をマウスで触る*/
+    color:transparent;
+    color:rgba(140, 121, 169, 0.197);
+    text-shadow: 0px 0px 5px rgba(228, 222, 244, 0.684);
+    transition: all 0.4s;
+        /* visibility: visible; */
+        /* visibility: hidden; */
+    }
+    /* .tabindex{
+        visibility: hidden;
+    } */
+  /* クリック時に吹き出しを表示する */
+  .k0:focus .fuda {/*図形表示*/
+    display: none;
+    /* visibility: hidden; */
+    /* content: "ページ作成"; */
+    /* display: none; */
+    /* visibility: hidden; */
+    padding: 5px 0;
+    /* 吹き出しの位置 */
+    position:fixed;
+    z-index: 1;
+    /* bottom: 150%; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* カードのスタイル */
+    border-radius: 6px;
+    background-image: url(asa.jpg);
+    display: inline-block;
+    /* カードのサイズを指定 */
+    width: 500px;
+    height: 300px;
+    padding: 10px 20px;
+    /* background-color: rgb(228, 215, 168); */
+    background-size: cover;
+    size: 120px;
+    /* カードにシャドウをかける */
+    box-shadow: 0 10px 20px rgba(24, 26, 1, 0.268), 0 6px 6px rgba(24, 26, 1, 0.268);  
+    /* visibility: collapse; */
+            /* visibility: hidden; */
+  }
+  .fuda{
+    font-family: 'Yuji Mai', serif;
+    font-size: 32px;
+    color: rgb(84, 16, 16);
+    text-align: center;
+    display: none;
+  }
+  .fuda2{
+    font-family: 'Yuji Mai', serif;
+    font-size: 24px;
+    color: rgb(84, 16, 16);
+    text-align: left;
+  }
+  .box {
+    margin       : auto;
+    width        : 490px;
+    height       : 10px;
+    background-color:rgba(84, 16, 16, 0.789);
+}
