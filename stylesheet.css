@@ -161,7 +161,9 @@ body {/*縁の間背景*/
 }
 a.link{
     color:#f4b851;
-      text-decoration: none; 
+    text-decoration: none; 
+    text-align: right;
+    display: block;
     }
 a.link:hover {
   color:rgb(138, 105, 77);
