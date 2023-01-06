@@ -159,3 +159,10 @@ body {/*縁の間背景*/
     height       : 10px;
     background-color:rgba(84, 16, 16, 0.789);
 }
+a.link{
+    color:rgba(84, 16, 16, 0.735);
+      text-decoration: none; 
+    }
+a.link:hover {
+  color:#652f38;
+}
